@@ -37,33 +37,33 @@ texture lightTex01{
 texture tex01{
 	Width = BUFFER_WIDTH;
 	Height = BUFFER_HEIGHT;
-	// Format = RGBA16F;
+	Format = RGBA16F;
   MipLevels = 5;
 };
 texture tex02{
 	Width = BUFFER_WIDTH/32;
 	Height = BUFFER_HEIGHT/32;
-	// Format = RGBA16F;
+	Format = RGBA16F;
 };
 texture tex03{
 	Width = BUFFER_WIDTH/16;
 	Height = BUFFER_HEIGHT/16;
-	// Format = RGBA16F;
+	Format = RGBA16F;
 };
 texture tex04{
 	Width = BUFFER_WIDTH/8;
 	Height = BUFFER_HEIGHT/8;
-	// Format = RGBA16F;
+	Format = RGBA16F;
 };
 texture tex05{
 	Width = BUFFER_WIDTH/4;
 	Height = BUFFER_HEIGHT/4;
-	// Format = RGBA16F;
+	Format = RGBA16F;
 };
 texture tex06{
 	Width = BUFFER_WIDTH/2;
 	Height = BUFFER_HEIGHT/2;
-	// Format = RGBA16F;
+	Format = RGBA16F;
 };
 
 sampler SamplerLight01 { Texture = lightTex01; };
